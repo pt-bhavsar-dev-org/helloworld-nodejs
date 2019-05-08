@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  aagent { label 'nodejs-app' }
   stages {
     stage('Say Hello') {
       steps {
